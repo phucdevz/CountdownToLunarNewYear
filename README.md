@@ -14,4 +14,4 @@
 
 1. Clone máy của bạn
    ```sh
-   git clone https://github.com/your_username/todo-app.git
+   git clone https://github.com/phucdevz/countdownTet.git
