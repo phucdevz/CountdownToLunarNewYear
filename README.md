@@ -1,17 +1,40 @@
-# Website Đếm Ngược Tết
+# 🧧 Countdown to Lunar New Year
+
+A festive terminal-based countdown written in C++ that displays the number of days, hours, minutes, and seconds remaining until the Lunar New Year (Tết Nguyên Đán). Celebrate the spirit of the new year with a simple, elegant console animation.
+
+## ✨ Features
+
+- ⏳ Live countdown timer to the upcoming Lunar New Year
+- 📅 Automatic date configuration
+- 🧨 Colorful terminal output using ANSI escape codes
+- 🎉 Celebration message when countdown reaches zero
+- 🧵 Multi-threaded rendering for smooth display
+
+## 🧪 Demo
 
 ![Demo Website](https://i.imgur.com/UgS0S7u.png)
 
-## Mô Tả
+## 🚀 Getting Started
 
--Cre tiktok thấy hay nên up github cho anh em lấy về dùng !!
+### 📋 Requirements
 
-## Các Tính Năng
+- A C++17-compatible compiler (`g++`, `clang++`, MSVC, etc.)
+- Terminal with support for ANSI escape codes (Linux/macOS/Windows Terminal)
 
-- **Nổi bật** đếm ngược ngày tới tết.
+### ⚙️ Build Instructions
 
-## Hướng Dẫn Cài Đặt
+```bash
+# Clone the project
+git clone https://github.com/phucdevz/CountdownToLunarNewYear.git
+cd CountdownToLunarNewYear
 
-1. Clone máy của bạn
-   ```sh
-   git clone https://github.com/phucdevz/countdownTet.git
+# Compile the code
+g++ -std=c++17 -o countdown main.cpp
+
+# Run the countdown
+./countdown
+
+CountdownToLunarNewYear/
+├── main.cpp        # Core countdown logic
+├── README.md       # Project documentation
+
