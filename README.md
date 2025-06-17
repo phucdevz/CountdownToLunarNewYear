@@ -28,13 +28,8 @@ A festive terminal-based countdown written in C++ that displays the number of da
 git clone https://github.com/phucdevz/CountdownToLunarNewYear.git
 cd CountdownToLunarNewYear
 
-# Compile the code
-g++ -std=c++17 -o countdown main.cpp
+open index.html  # macOS
+# or
+start index.html  # Windows
 
-# Run the countdown
-./countdown
-
-CountdownToLunarNewYear/
-├── main.cpp        # Core countdown logic
-├── README.md       # Project documentation
 
